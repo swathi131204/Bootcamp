@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="menu.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('food-background.jpg') no-repeat center center/cover;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .menu {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            max-width: 600px;
+            width: 100%;
+            animation: slideIn 1s ease-in-out;
+        }
+        @keyframes slideIn {
+            from { transform: translateY(-20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        h1 {
+            text-align: center;
+            color: #c0392b;
+            border-bottom: 2px solid #c0392b;
+            padding-bottom: 10px;
+        }
+        .menu-section {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 8px;
+            background: #fff3e0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease-in-out;
+        }
+        .menu-section:hover {
+            transform: scale(1.03);
+        }
+        h2 {
+            color: #d35400;
+        }
+        ol {
+            padding-left: 20px;
+        }
+        li {
+            margin: 10px 0;
+        }
+        .price {
+            float: right;
+            font-weight: bold;
+            color: #27ae60;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <h1>Restaurant Menu</h1>
+        
+        <div class="menu-section">
+            <h2>Appetizers</h2>
+            <ol>
+                <li><strong>Kothu Parotta </strong> - Shredded parotta stir-fried with eggs, vegetables, and spicy gravy <span class="price">Rs.80</span></li>
+                <li><strong>Medu Vada</strong> - Crispy, deep-fried urad dal doughnuts, often served with chutney and sambar<span class="price">Rs.20</span></li>
+            </ol>
+        </div>
+        
+        <div class="menu-section">
+            <h2>Main Courses</h2>
+            <ol>
+                <li><strong>Biryani</strong> - Tamil Nadu-style biryani, especially Dindigul and Ambur varieties. <span class="price">Rs.120</span></li>
+                <li><strong>Pongal</strong> - A comforting dish of rice and lentils, Ven Pongal or sweet <span class="price">Rs.70</span></li>
+            </ol>
+        </div>
+        
+        <div class="menu-section">
+            <h2>Desserts</h2>
+            <ol>
+                <li><strong>Payasam </strong> - Sweet pudding made with rice, vermicelli, or lentils, cooked in milk and jaggery. <span class="price">Rs.100</span></li>
+                <li><strong>Kozhukkattai</strong> - Sweet dumplings made with rice flour and coconut-jaggery filling <span class="price">Rs.150</span></li>
+            </ol>
+        </div>
+    </div>
+</body>
+</html>
