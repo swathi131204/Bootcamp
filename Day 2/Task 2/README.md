@@ -11,7 +11,7 @@ A simple and elegant website built using HTML and CSS. This project showcases a 
 
 ## 🛠️ Technologies Used  
 
-- **HTML5** - Structuring the web pages  
-- **CSS3** - Styling and layout  
+- **HTML** - Structuring the web pages  
+- **CSS** - Styling and layout  
 - **Responsive Design** - Ensuring compatibility across devices  
 
