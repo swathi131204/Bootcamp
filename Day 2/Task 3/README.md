@@ -15,9 +15,5 @@ This project is a simple restaurant menu website built using HTML and CSS. It di
 
  Open `menu.html` in your browser.
 
-## Usage
-- Modify the `index.html` file to add or remove food items.
-- Update the `styles.css` file to change the look and feel of the website.
-
 
 
