@@ -1,4 +1,4 @@
-Image Slider Website
+**Image Slider Website**
 
 A simple and responsive Image Slider built using HTML, CSS, and JavaScript.
 
@@ -14,10 +14,10 @@ Next and Previous navigation buttons
 
 Dots navigation for easy slide selection
 
-Technologies Used
+**Technologies Used**
 
-HTML: Structure of the webpage
+**HTML**: Structure of the webpage
 
-CSS: Styling and animations
+**CSS**: Styling and animations
 
-JavaScript: Functionality and interactivity
+**JavaScript**: Functionality and interactivity
