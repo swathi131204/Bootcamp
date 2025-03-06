@@ -1,0 +1,92 @@
+/* General Page Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Heading */
+h4 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+/* Form Section */
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container input {
+  width: 200px;
+}
+
+/* Student Cards Layout */
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+/* Student Card */
+.student-card {
+  width: 280px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.student-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Card Content */
+.student-card-content {
+  padding: 15px;
+}
+
+.student-card-content h6 {
+  font-weight: bold;
+  color: #333;
+}
+
+.student-card-content p {
+  color: #666;
+  font-size: 14px;
+}
+
+/* Button */
+button {
+  background-color: #1976d2 !important;
+  color: white !important;
+  padding: 8px 12px !important;
+  border-radius: 5px !important;
+  font-size: 14px !important;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #1565c0 !important;
+}
+

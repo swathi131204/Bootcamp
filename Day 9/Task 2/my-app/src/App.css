@@ -1,0 +1,57 @@
+/* Center the table on the page */
+.p-4 {
+  display: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background-color: #f4f4f4; /* Light background */
+}
+
+/* Style the table container */
+.table-container {
+  width: 60%;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Style the heading */
+h2 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+/* Style the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Table headers */
+thead tr {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Table rows */
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Alternate row color */
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Hover effect */
+tbody tr:hover {
+  background-color: #e0e0e0;
+  transition: 0.3s;
+}

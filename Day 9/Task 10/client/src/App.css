@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: 30px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #007BFF;
+}
+
+.refresh-btn {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px;
+  border: none;
+  margin-bottom: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.refresh-btn:hover {
+  background-color: #0056b3;
+}
+
+.student-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.student-card {
+  background: #fff;
+  padding: 10px;
+  border: 1px solid #007BFF;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.pagination {
+  margin-top: 20px;
+}
+
+button {
+  background-color: #007BFF;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
